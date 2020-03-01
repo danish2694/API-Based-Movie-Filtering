@@ -11,7 +11,7 @@ main_dir = "E:\\Movies\\Hollywood\\"
 movie_list = os.listdir(main_dir)
 
 # url to make GET request in order to get the genre ids and names
-url = 'https://api.themoviedb.org/3/genre/movie/list?api_key=6e9e0b5c921ae73efecc38ec4c381d09&language=en-US'
+url = 'https://api.themoviedb.org/3/genre/movie/list?api_key=<<API_KEY>>&language=en-US'
 r = requests.get(url)
 
 # converting data into json
@@ -19,7 +19,7 @@ json_data = json.loads(r.text)
 genre_id = (json_data['genres'])
 
 # define your API key here
-tmdb.API_KEY = '6e9e0b5c921ae73efecc38ec4c381d09'
+tmdb.API_KEY = 'API_KEY'
 
 # initialising search instance 
 search = tmdb.Search()
