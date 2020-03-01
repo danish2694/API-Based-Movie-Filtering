@@ -79,6 +79,8 @@ It will return result in json format:
 
 ```
 
+As mentioned earlier, this project was for sorting movies according to their genre using API, and hence can be modified or extended according to the requirement.
+
 ## Source :-
 
 https://www.themoviedb.org/documentation/api
