@@ -7,8 +7,7 @@ This project was meant for personal use and hence can be modified according to t
 I wanted to sort some unwatched movies according to their genre into different folders, but it was boring and tiredsome (around 90 - 100 movies) and I didn't knew overview of every movie. So, instead of searching genre of every movie on internet and then sorting them, I tried to automate this task using TMDB's API.
 
 
-To register for an API key, click the [API Link](https://www.themoviedb.org/documentation/api) from within your account settings page. You can also view the screenshots below for help:
-
+To register for an API key, click the [API Link](https://www.themoviedb.org/documentation/api) from within your account settings page. 
 
 
 1. Click on your avatar or initials in the main navigation
